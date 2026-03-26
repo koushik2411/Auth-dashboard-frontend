@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-    baseURL: "https://auth-dashboard-be.onrender.com",
+    baseURL: "https://auth-dashboard-be.onrender.com/",
 });
 
 export const signupUser = (data) => API.post("/signup", data);
